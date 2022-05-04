@@ -1,12 +1,12 @@
 #!/bin/bash 
 
-echo "Who are you?"
+name=$1
+compliment=$2
 
-read name
 
 echo "Hi, there!"
 
 sleep 1
 
 echo "Have a nice day, $name!"
-
+echo "You have the best $compliment, I've ever seen $name!!"
